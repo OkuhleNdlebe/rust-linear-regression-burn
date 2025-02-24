@@ -2453,10 +2453,11 @@ dependencies = [
 ]
 
 [[package]]
-name = "linear_regression_model"
+name = "linear_regression"
 version = "0.1.0"
 dependencies = [
  "burn",
+ "burn-autodiff",
  "burn-ndarray",
  "rand 0.9.0",
  "rgb",
